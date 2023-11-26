@@ -1,5 +1,5 @@
 @import url("https://gist.githubusercontent.com/Microtribute/efb869a60d61679e427f478cda4a5874/raw/6a7427140120519911fc97d40c3ac77c7b678656/Neue-Haas-Unica-Pro.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
 :root{
 
     --primario: #F1EFEF;
@@ -22,7 +22,7 @@ html{
 body{
     font-size: 1.6rem;
     background-color: var(--primario);
-    font-family:  'Noto Serif Display', serif;  
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -442,7 +442,7 @@ video{
 
 @media (min-width:768px){
     .cuadricula{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
        
     }
 }
@@ -463,7 +463,7 @@ video{
 }
 
 .product_name, .product_price{
-    font-family: var(--secundary-font-family);
+    font-family: 'Poppins', sans-serif;
     margin: 1rem 0;
     text-align: center;
     line-height: 1.2;
@@ -562,3 +562,6 @@ video{
         width: auto;
     }
 }
+
+/*copos de nieve*/
+
