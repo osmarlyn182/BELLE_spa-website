@@ -348,7 +348,7 @@ h1,h2,h3{
 .booking-image{
     grid-row: 3/ 4;
 }
-@media (min-width:786px)
+@media (min-width:768px)
 {
     
     .booking-image{
